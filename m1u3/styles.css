@@ -1,0 +1,65 @@
+body {
+    background-color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    color: black;
+}
+#datos_personales {
+    background-color:#F5F5DC;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    height: 350px;
+    border: 20px;
+    margin-top: 10px;
+}
+h1 {
+    padding-top: 15px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 25px;
+    font-weight: 150;
+    letter-spacing: 1px;
+    margin: 15px;
+}
+.datos_adicionales {
+    background-color:#F5F5DC;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    height: auto;
+    border: 20px;
+    margin-top: 10px;
+}
+h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+h4 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+ol {font-size: 12px;
+    padding: 15px;
+    background: #A9A9A9;
+}
+p {
+    font-size: 10px;
+    padding: 20px;
+    background: #A9A9A9;
+}
+.formulario {
+    background-color:#F5F5DC;
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    text-transform: uppercase;
+}
