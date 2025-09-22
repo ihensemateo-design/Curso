@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    color: #fff;
+    font-family: "PT Serif", "Merriweather", serif;
+}
+
+#cv_personal_information {
+    background: rgb(245,245,245);
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0px 0px 55px 0px #0007;
+    border-radius: 8px;
+    color: #444;
+}
+
+.cv_title {
+    font-size: 25px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.cv_photo {
+    width: 75%;
+    border: 3px solid #0007;
+    border-radius: 25px;
+    filter: drop-shadow( 0px 0px 25px #0007);
+}
+
+.cv_age, .cv_domicile {
+    font-size: 20px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.cv_box_content {
+    background: rgb(245,245,245);
+    width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px 10px 10px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 55px 0px #0007;
+    border-radius: 8px;
+    color: #444;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    display: grid;
+}
+
+.cv_column {
+    background: rgb(245,245,245);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0px 15px rgba(0,0,0,0.2);
+}
+
+.cv_subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-top: 1px;
+}
+.cv_subsubtitle {
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+.cv_list {
+    font-size: 6px;
+    padding: 10px;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+    padding-left: 0px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 10px 0px;
+    line-height: 1.6;
+    text-align: left;
+}
+.cv_formulario {
+    background: rgb(245,245,245);
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-top: 5px;
+    padding: 10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0px 0px 55px 0px #0007;
+    border-radius: 8px;
+    color: #444;
+    margin-bottom: 50px;
+}
+
+.formulario {
+    text-align: center;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    padding: 10px;
+    text-transform: uppercase;
+}
